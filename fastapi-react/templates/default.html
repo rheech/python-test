@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% block head %}
+    <title>Python React example</title>
+    {% endblock %}
+</head>
+<body>
+    {% block body %}
+    <script defer="defer" src="/static/section/js/{% block script %}{% endblock %}"></script>
+    {% endblock %}
+</body>
+</html>
